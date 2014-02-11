@@ -86,9 +86,12 @@
 
    		$.backstretch(["pic/2.jpg"]);
 
-   		$("#nekidiv,.partneriicon").on('click', function () { $("#lista").toggle('slow'); });
+   		$("#nekidiv,.partneriicon").on('click', function () {
+   		    //$("#lista").toggle('slow');
+   		    DajZadjnePartnere();
+   		});
 
-   		DajZadjnePartnere();
+   		
 
    		function DajZadjnePartnere() {
    		    var formatiraniHTML = "";
